@@ -1,0 +1,29 @@
+.grid {
+    display: grid;
+    grid-column-gap: .5em;
+    grid-row-gap: .5em;
+}
+
+.item {
+    background-color: #CCC;
+    padding: 2em;
+    text-align: center;
+}
+.marker {
+    display: inline-block;
+    padding: .5em .8em;
+    border-radius: .3em;
+    background-color: #fff;
+    cursor: pointer;
+}
+.marker:hover + .tooltip {
+    display: inline-block;
+}
+.tooltip {
+    display: none;
+    position: absolute;
+    padding: .3em .5em;
+    margin: 0 auto;
+    color: #f4f4f4;
+    background-color: rgb(42, 48, 58);
+}
