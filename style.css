@@ -1,9 +1,9 @@
 .grid {
     display: grid;
-    grid-column-gap: .5em;
-    grid-row-gap: .5em;
+    grid-gap: .5em;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    grid-template-rows: minmax(100px, auto);
 }
-
 .item {
     background-color: #CCC;
     padding: 2em;
@@ -23,7 +23,14 @@
     display: none;
     position: absolute;
     padding: .3em .5em;
-    margin: 0 auto;
+    margin: auto .5em;
+    border-radius: .3px;
     color: #f4f4f4;
     background-color: rgb(42, 48, 58);
 }
+.one { grid-column: 1 / 4; grid-row: 1 / 1; }
+/* .two { grid-column: 1; grid-row: 1 / 4; }
+.three { grid-column: 1; grid-row: 1 / 4; }
+.four { grid-column: 1; grid-row: 1 / 4; }
+.five { grid-column: 1; grid-row: 1 / 4; }
+.six { grid-column: 1; grid-row: 1 / 4; } */
