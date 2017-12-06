@@ -44,40 +44,40 @@ span {
     grid-area: item2;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(to right, #dfabff 5%, #524ebb 108%);
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 .grid-3 {
     display: flex;
     grid-area: item3;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+    background-image: linear-gradient(to top, #94ffd3 0%, #f9f887 100%);
 }
 .grid-4 {
     display: flex;
     grid-area: item4;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    background-image: linear-gradient(120deg, #e9befb 0%, #e26576 100%);
 }
 .grid-5 {
     display: flex;
     grid-area: item5;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(120deg, #e9befb 0%, #e26576 100%);
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 }
 .grid-6 {
     display: flex;
     grid-area: item6;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    background-image: linear-gradient(120deg, #d5b9f1 0%, #1e558c 100%);
 }
 .grid-7 {
     display: flex;
     grid-area: item7;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(-20deg, #00cdac 0%, #e5f9f8 100%);
+    background-image: linear-gradient(-20deg, #03b195 0%, #e5f9f8 100%);
 }
